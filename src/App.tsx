@@ -16,6 +16,7 @@ export type Game = {
 }
 
 function App() {
+  console.log('redenrizando')
   return (
     <Provider store={store}>
       <GlobalStyle />
